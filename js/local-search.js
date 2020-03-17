@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // Search DB path
   let searchPath = CONFIG.path;
  // 修改错误
- if (searchPath.length == 0) {
+ if (searchPath.length === 0) {
     searchPath = 'search.xml';
   } else if (searchPath.endsWith('json')) {
     isXml = false;
